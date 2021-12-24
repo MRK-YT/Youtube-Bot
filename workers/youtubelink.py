@@ -22,13 +22,11 @@ async def love(client, message):
         [InlineKeyboardButton("⭕ Leech & Mirror ⭕", url="https://t.me/+N9Pi9xjYX6E3YmE9")],
         [InlineKeyboardButton("⭕ Movies & Demand ⭕", url="https://t.me/+jD86CLZqqUBjZDk1")]
     ])
-    youtube_ex = f"""
-**Some example youtube channels and songs if you don't know then what u want**
-- type /github if I helped u in AnyWay. 
-```Pʀᴇᴅ∆ᴛᴏʀ``` """
+    youtube_ex = "\x1f**Some example youtube channels and songs if you don't know then what u want**\x1f- type /github if I helped u in AnyWay. \x1f```Pʀᴇᴅ∆ᴛᴏʀ``` "
 
-   
-    
+
+       
+
     await message.reply_text(youtube_ex, reply_markup=joinButton)
     raise StopPropagation
 
